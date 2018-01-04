@@ -48,13 +48,7 @@
 		float:none;
 		text-align: center;
 	}
-	.search input[type="search"]{
-		margin-right: 0;
-	}
-	.search input[type="button"]{
-		position: static;
-	}
-	.hideBtn{
-		display: none;
+	.search .phone{
+		float:none;
 	}
 }

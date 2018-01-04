@@ -113,23 +113,8 @@ ul{
 	background:#db4a39;
 }
 
-.a{
-	position: relative;
-}
-.hideBtn{
-	position: absolute;
-	right: 0;
-	top:-2px;
-	width: 30px;
-	height: 25px;
-	background: #957964;
-	border:none;
-	border-bottom-right-radius:5px;
-	border-bottom-left-radius:5px; 
-	color:#fff;
-	font-size:18px;
-	cursor: pointer;
-}
+
+
 .titles{
 	float:left;
 }
@@ -146,37 +131,35 @@ ul{
 
 .search{
 	float:right;
-	margin-top:40px;
-	margin-bottom: 40px;
+	margin:40px 0;
+	/*margin-bottom: 40px;*/
 }
 .search .phone{
 	font-size:13px;
 	color:#999;
-	margin:0 0 10px 35px; 
+	float: right;
+	margin-bottom: 10px;
+	/* box-sizing: border-box;
+	margin:0 0 10px 35px;  */
 }
-	{
-	font-size:13px;
+
+
+.search input[type="search"]{
+	font-size:12px;
 	color:#7f7f7f;
-	height: 28px;
-	width: 216px;
-	margin-right: 62px;
-}
-.search form{
-	position: relative;
+	box-sizing: border-box;
+	padding:5px 10px 5px 5px; 
 }
 .search input[type="button"]{
 	font-size:12px;
 	color:#fff;
-	text-transform: uppercase;
 	background:#3c2520;
-	height: 28px;
+	height: 27px;
+	margin-left:-10px;
 	border:none;
-	border-top-right-radius:8px;
-	border-bottom-right-radius:8px;
-	cursor: pointer;
-	position: absolute;
-	top:0;
-	right:0;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	cursor: pointer;   
 }
 
 
