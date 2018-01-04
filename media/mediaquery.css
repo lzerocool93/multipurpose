@@ -1,0 +1,60 @@
+@media screen and (max-width: 750px){
+	.mainNavigation li a{
+		font-size:12px;
+		padding:20px 0;
+	}
+	.rightSection .personName{
+		font-size:25px;
+	}
+
+}
+@media screen and (max-width: 650px){
+	.leftSection , .rightSection{
+		float:none;
+		width: 100%;
+	}
+	.leftSection{
+		margin-right: 0;
+	}
+	.rightSection{
+		margin-left:0;
+	}
+
+	.aboutUs , .linkBlog , .newsletter{
+		text-align: center;
+		float: none;
+		padding: 0 0 0 0;
+		width: 100%;
+	}
+	.contentFooter .linkBlog ul li:after{
+		content: '';
+		background: none;
+	}
+	
+}
+@media screen and (max-width: 570px){
+	.mainNavigation li a{
+		font-size:8px;
+		padding:15px 0;
+	}
+}
+
+@media screen and (max-width: 520px){
+	.topIcons{
+		float:left;
+
+	}
+	.titles , .search{
+		float:none;
+		text-align: center;
+	}
+	.search input[type="search"]{
+		margin-right: 0;
+	}
+	.search input[type="button"]{
+		position: static;
+	}
+	.hideBtn{
+		display: none;
+	}
+}
